@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="398.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="Body2" alignment="CENTER" layoutX="103.0" layoutY="23.0" prefHeight="321.0" prefWidth="403.0" spacing="20.0" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="23.0">
+         <children>
+            <TextArea fx:id="READFILE" />
+            <Button fx:id="saveNoteFromFile" mnemonicParsing="false" text="Create note" />
+      
+            <VBox fx:id="dragTArget" alignment="CENTER" prefHeight="178.0" prefWidth="308.0" style="-fx-background-color: #18211B;">
+               <children>
+                  <Text fx:id="Dropme" text="Drop your file here" textAlignment="CENTER" wrappingWidth="307.69139862060547" />
+
+               </children></VBox>
+         </children>
+
+      </VBox>
+   </children>
+   <opaqueInsets>
+      <Insets top="20.0" />
+   </opaqueInsets>
+</AnchorPane>

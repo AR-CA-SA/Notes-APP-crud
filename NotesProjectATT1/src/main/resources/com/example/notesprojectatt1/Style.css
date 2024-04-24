@@ -1,0 +1,140 @@
+#Body{
+   -fx-background-color: black;
+}
+
+#titleT{
+     -fx-font-size:35px;
+}
+
+.scroll-bar{
+    -fx-background-color:#161E1F;
+    -fx-border-radius:80px;
+
+}
+
+.scroll-bar .thumb{
+   -fx-background-color:#323B37;
+
+
+
+}
+
+.scroll-bar .thumb:pressed{
+    -fx-background-color:#899878;
+}
+
+
+
+#NoteBox {
+    -fx-background-color: #18211B;
+     -fx-border-style: solid;
+     -fx-border-width: 2px;
+     -fx-border-color: #899878;
+     -fx-font-size:15px;
+     -fx-text-fill:white;
+
+
+}
+
+#READFILE{
+    -fx-background-color: #18211B;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: #899878;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+}
+#READFILE .content {
+    -fx-background-color: #18211B;
+}
+
+
+
+#saveNoteFromFile{
+  -fx-background-color:#18211B;
+    -fx-color:white;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+    -fx-border-color:  #899878;
+    -fx-border-width: 2px;
+    -fx-pref-width:200px;
+
+}
+
+#saveNoteFromFile:hover{
+    -fx-background-color:#E40202;
+    -fx-border-color:  #FF4343;
+    -fx-text-fill:black;
+}
+
+#Dropme{
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+}
+
+#dragTArget{
+    -fx-background-color:#18211B;
+    -fx-color:white;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+    -fx-border-color:  #899878;
+    -fx-border-width: 2px;
+    -fx-pref-width:200px;
+}
+
+#NoteBox .content {
+    -fx-background-color: #18211B;
+}
+
+#DeleteButt{
+    -fx-background-color:#18211B;
+    -fx-color:white;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+    -fx-border-color:  #899878;
+    -fx-border-width: 2px;
+    -fx-pref-width:200px;
+
+
+}
+
+#DeleteButt:hover{
+    -fx-background-color:#E40202;
+    -fx-border-color:  #FF4343;
+    -fx-text-fill:black;
+}
+
+
+#ButtonNew{
+    -fx-background-color:#18211B;
+    -fx-color:white;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+    -fx-border-color:  #899878;
+    -fx-border-width: 2px;
+    -fx-pref-width:200px;
+
+}
+#ButtonUp{
+    -fx-background-color:#18211B;
+    -fx-color:white;
+    -fx-font-size:15px;
+    -fx-text-fill:white;
+    -fx-border-color:  #899878;
+    -fx-border-width: 2px;
+    -fx-pref-width:200px;
+
+}
+
+#ButtonUp:hover{
+    -fx-background-color:#E4E6C3;
+    -fx-border-color:  #899878;
+    -fx-text-fill:black;
+}
+#ButtonNew:hover{
+    -fx-background-color:#E4E6C3;
+    -fx-border-color:  #899878;
+    -fx-text-fill:black;
+}
+
+

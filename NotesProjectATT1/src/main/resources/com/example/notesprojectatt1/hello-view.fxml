@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="Body" alignment="CENTER" prefHeight="468.0" prefWidth="514.0" spacing="50.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notesprojectatt1.HelloController">
+   <children>
+      <Text fx:id="titleT" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes" />
+      <HBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="400.0" spacing="40.0">
+         <children>
+            <ScrollPane fx:id="scrollpane" fitToWidth="true">
+               <content>
+                  <FlowPane fx:id="noteContainer" alignment="CENTER" hgap="10.0" prefHeight="452.0" prefWidth="930.0" style="-fx-background-color: black; -fx-border-color: #121513; -fx-border-width: 3px;" vgap="10.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets></FlowPane>
+               </content>
+            </ScrollPane>
+
+            <VBox prefHeight="400.0" prefWidth="157.0" spacing="40.0">
+               <children>
+                  <Button fx:id="ButtonNew" mnemonicParsing="false" onAction="#NewNote" text="New Note" />
+                  <Button fx:id="ButtonUp" mnemonicParsing="false" onAction="#NewSceneFileR" text="Upload file" />
+               </children>
+               <padding>
+                  <Insets left="20.0" top="40.0" />
+               </padding>
+
+            </VBox>
+
+         </children>
+      </HBox>
+      <Text fill="#797979" text="- Only - TXT - Files - 2024 -  " />
+   </children>
+</VBox>
